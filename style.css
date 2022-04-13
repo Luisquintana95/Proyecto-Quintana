@@ -1,5 +1,3 @@
-
-
 /* ccs aplico margin y padding*/
 *{
   margin: 0;
@@ -22,7 +20,7 @@ nav {   text-shadow: none;
   }
 
 .item_logo{
-      width: 20%;
+      width: 40%;
       height: auto;
       }
   
@@ -121,7 +119,7 @@ nav {   text-shadow: none;
            }
 /* inicio footer con iconos de redes sociales*/
 /* Agrego animaciones y transiciones a redes sociales*/
-.footer{
+  .footer{
       background-color: #4158D0;
       background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
