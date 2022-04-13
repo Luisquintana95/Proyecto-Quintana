@@ -20,8 +20,9 @@ nav {   text-shadow: none;
   }
 
 .item_logo{
-      width: 40%;
+      width: 10%;
       height: auto;
+      background-color: transparent;
       }
   
 
@@ -106,17 +107,7 @@ nav {   text-shadow: none;
 .home{
   background-color: #0093E9;
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-  
-}
-
-.image {
-      width: 70% ; 
-
-}
-.imagenes {
-          width: 100%;
-
-           }
+      }
 /* inicio footer con iconos de redes sociales*/
 /* Agrego animaciones y transiciones a redes sociales*/
   .footer{
@@ -127,6 +118,7 @@ nav {   text-shadow: none;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 5%;
         } 
         .botton-links{
             min-width: 700px;
