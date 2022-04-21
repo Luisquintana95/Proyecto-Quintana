@@ -20,7 +20,7 @@ nav {   text-shadow: none;
   }
 
 .item_logo{
-      width: 10%;
+      width: 120px;
       height: auto;
       background-color: transparent;
       }
@@ -33,11 +33,15 @@ nav {   text-shadow: none;
 
   }   
   nav ul{
-      width:55% ;
-      display: flex;
-      list-style: none;
-      justify-content: space-around ;
-      font-size:30px
+    width:55% ;
+
+    display: flex;
+   
+    list-style: none;
+   
+    justify-content: space-around ;
+   
+    font-size:30px
   
       }
   
