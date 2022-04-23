@@ -1,0 +1,38 @@
+/* ccs aplico margin y padding*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container{
+            
+            max-width: 100%;
+            margin: 0 auto;
+            border: 5px solid black
+             } 
+             
+  nav {   text-shadow: none;
+        display: flex;
+        justify-content:space-between;
+        background-color: white;
+    }
+  
+  .item_logo{
+        width: 40%;
+        width: 10%;
+        height: auto;
+        background-color: transparent;
+        }
+        nav > a {
+            width: 20%;
+             
+    }   
+    nav ul{
+        width:55% ;
+        display: flex;
+        list-style: none;
+        justify-content: space-around ;
+        font-size:30px
+    
+        }
