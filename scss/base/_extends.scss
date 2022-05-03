@@ -1,0 +1,17 @@
+%flexbox{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.footer{
+@extend%flexbox
+}
+
+%botton{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.botton-footer{
+    @extend%botton
+}

@@ -1,18 +1,177 @@
-/* Error: expected ")".
- *   ,
- * 3 |     boder-radius-standard:5rem
- *   |                          ^
- *   '
- *   scss\base\_mapas.scss 3:26  @import
- *   scss\style.scss 4:8         root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a   \2577 \a 3 \2502      boder-radius-standard:5rem\d\a   \2502                           ^\a   \2575 \a   scss\\base\\_mapas.scss 3:26  @import\a   scss\\style.scss 4:8         root stylesheet';
+/* ccs aplico margin y padding*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+
+nav {
+  text-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.item_logo {
+  width: 40%;
+  width: 10%;
+  height: auto;
+  background-color: transparent;
+}
+
+nav > a {
+  width: 20%;
+}
+
+nav ul {
+  width: 55%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.titulo {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 4rem;
+}
+
+/* Aplico estilo a mi h1*/
+.h1 {
+  justify-content: center;
+  text-align: center;
+  margin: 7px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 5rem;
+}
+
+/*Aplico grid*/
+.item p {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  justify-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  padding: 20px;
+  background-color: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+/*aplico estilo a gridpadre */
+.gridpadre {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.home {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.image {
+  width: 70%;
+}
+
+.imagenes {
+  width: 100%;
+}
+
+/* inicio footer con iconos de redes sociales*/
+/* Agrego animaciones y transiciones a redes sociales*/
+.footer {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.botton-links {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botton-links a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+.botton-links a:hover {
+  transform: scale(1, 2);
+}
+
+.botton-footer {
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+/*Fin de mi footer*/
+/* contenido*/
+.layout {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.foto {
+  flex-grow: 1;
+}
+
+.botton-footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-footer {
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

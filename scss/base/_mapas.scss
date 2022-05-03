@@ -1,31 +1,10 @@
-$perfil-standard:(
-    color-standard:white
-    boder-radius-standard:5rem
-    margin-standard:7px
-    justify-content-standard:center
-    text-align-standard:center
-    height-standard:100%
-    width:100%
+$perfil-standard: (
+    width-standard:100%,
+    border-standard:5px solid black,
+
 );
-$perfil-premium:(
-    color-standard:black
-    boder-radius-standard:6rem
-    margin-standard:8px
-    justify-content-standard:center
-    text-align-standard:center
-    height-standard:100%
-    width:100%
+$perfil-premium: (
+    width-standard:100%,
+    border-standard:6px solid white, 
 );
-.h1{
-    color: map-get($perfil-standard,olor-standard );
-    border-radius: map-get($perfil-standard);
-    margin:map-get($perfil-standard);
-    justify-content: map-get($perfil-standard);
-    text-align: map-get($perfil-standard );
-    height: map-get($perfil-standard);
-    width: map-get($perfil-standard);
-}
-
-
-
 

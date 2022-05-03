@@ -1,0 +1,15 @@
+@mixin flexbox($flex, $text, $aling, $justify) {
+    display: $flex;
+    text-align: $text;
+    align-items: $aling;
+    justify-content: $justify;
+}
+.botton-footer{
+@include flexbox(flex,center,center,center)
+
+}
+.footer{
+        @include flexbox(flex,center ,center ,center )
+
+}
+
